@@ -74,7 +74,7 @@ section:nth-child(3){
     color: #DF2E38
 }
 
-#video{
+#main{
     width: 100%;
     top: 43%;
     left: 50%;
@@ -83,7 +83,7 @@ section:nth-child(3){
     font-family: 'Audiowide', cursive;
     font-size: 4.7em;
 }
-#video p{
+#main p{
     line-height: 1em;
     word-spacing: 0.2em;
     margin-bottom: 0.3em;
@@ -96,7 +96,7 @@ section:nth-child(3){
 .fg img{
     width: 30rem;
 }
-#freext, #nyc, #worldcup, #cardboardbox{
+#freext, #nyc, #project, #cardboardbox{
     top: 15%;
     left: 10%;
     width: 35%;
@@ -138,7 +138,7 @@ section:nth-child(3){
 .hide{
     display: none;
 }
-#freext h1, #tool h1, #nyc h1, #worldcup h1, #n7 h1, #cardboardbox h1, #soweto h1, #greenrubber h1{
+#freext h1, #tool h1, #nyc h1, #project h1, #n7 h1, #cardboardbox h1, #projects_1 h1, #gift h1{
     color: #4f9427;
     font-size: 4em;
     font-weight: 0;
@@ -146,30 +146,30 @@ section:nth-child(3){
     line-height: 1em;
     margin-bottom: 30px;
 }
-#freext h2, #tool h2, #nyc h2, #worldcup h2, #n7 h2, #cardboardbox h2, #soweto h2, #greenrubber h2{
+#freext h2, #tool h2, #nyc h2, #project h2, #n7 h2, #cardboardbox h2, #projects_1 h2, #gift h2{
     font-family: 'Righteous', cursive;
     font-weight: bolder;
     font-size: 1em;
     margin-bottom: 5px;
 }
-#freext p, #tool p, #nyc p, #worldcup p, #n7 p, #cardboardbox p, #soweto p, #greenrubber p{
+#freext p, #tool p, #nyc p, #project p, #n7 p, #cardboardbox p, #projects_1 p, #gift p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5em;
     width: 70%;
     color: #C7E8CA;
 }
-#freext a, #nyc a, #worldcup a, #n7 a, #cardboardbox a, #soweto a, #greenrubber a{
+#freext a, #nyc a, #project a, #n7 a, #cardboardbox a, #projects_1 a, #gift a{
     text-decoration: none;
     color: #333;
     border-bottom: dashed black 1px;
 }
-#freext a:hover, #nyc a:hover, #worldcup a:hover, #n7 a:hover, #cardboardbox a:hover, #soweto a:hover, #greenrubber a:hover{
+#freext a:hover, #nyc a:hover, #project a:hover, #n7 a:hover, #cardboardbox a:hover, #projects_1 a:hover, #gift a:hover{
     border-bottom: none;
     color: black;
 }
 
 
-#n7, #soweto, #soweto, #greenrubber{
+#n7, #projects_1, #projects_1, #gift{
     top: 15%;
     right: 5%;
     width: 35%;
@@ -409,7 +409,7 @@ button:hover {
 /* ================================================================================================================ */
 
 @media(max-width: 1000px){
-    #freext, #tool, #nyc, #worldcup, #cardboardbox, #n7, #soweto, #soweto, #greenrubber {
+    #freext, #tool, #nyc, #project, #cardboardbox, #n7, #projects_1, #projects_1, #gift {
         width: 100%;
         left: 15%;
         right: 10%;
