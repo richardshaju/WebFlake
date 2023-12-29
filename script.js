@@ -9,7 +9,7 @@ let curr_track = document.createElement("audio");
 let icon = document.getElementsByClassName("sound")[0];
 curr_track.src = "/music/bgm.mp3";
 curr_track.load();
-document.body.appendChild(curr_track);
+
 
 function play() {
   if (!curr_track.paused) {
@@ -17,6 +17,7 @@ function play() {
     curr_track.pause();
   } else {
     icon.src = "/images/sound.png";
+    document.body.appendChild(curr_track);
     curr_track.play();
   }
 }
